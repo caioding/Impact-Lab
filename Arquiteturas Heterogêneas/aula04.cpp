@@ -24,10 +24,9 @@ int main () {
     // image_Input << "0 0 0" << endl;		//black
 
     // 50% red and 50% blue with loop for
-for (int ImgH = 0; ImgH < 2; ImgH++) {
+    for (int ImgH = 0; ImgH < 2; ImgH++) {
         for (int ImgV = 0; ImgV < 3; ImgV++) {
             int pixel_count = ImgH * 3 + ImgV;
-
             if (pixel_count < 3) { 
                 image_Input << "255 0 0 "; // Red
             } else {

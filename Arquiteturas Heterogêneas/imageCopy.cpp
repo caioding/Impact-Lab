@@ -8,8 +8,8 @@ int main() {
     ofstream image_Write;
     ifstream image_Read;
 
-    image_Read.open("./images/image.ppm");
-    image_Write.open("./images/Newimage.ppm");
+    image_Read.open("./images/bclc.ppm");
+    image_Write.open("./images/output/bclcCopy.ppm");
 
     string Type;
     string Width;
